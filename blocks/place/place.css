@@ -4,7 +4,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: 152px min-content;
+    grid-template-rows: min-content min-content;
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -21,7 +21,7 @@
     .place {
         column-gap: 28px;
         grid-template-columns: 340px 1fr;
-        grid-template-rows: 92px min-content;
+        grid-template-rows: min-content min-content;
     }
 }
 
