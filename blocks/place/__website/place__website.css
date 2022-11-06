@@ -1,0 +1,8 @@
+.place__website {
+    border: 1px solid green;
+    display: grid;
+    grid-template-rows: min-content min-content;
+    row-gap: 12px;
+    align-content: end;
+
+}

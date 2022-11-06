@@ -1,0 +1,22 @@
+.places__board {
+    border: 1px solid green;
+    /* Удаляю маркировку списка и отступы */
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    display: grid;
+    row-gap: 80px;
+}
+
+@media screen and (max-width: 896px) {
+    .places__board {
+        row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .places__board {
+        row-gap: 50px;
+    }
+}

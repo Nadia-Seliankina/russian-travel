@@ -1,0 +1,12 @@
+.place__text {
+  border: 1px solid green;
+  display: grid;
+  row-gap: 26px;
+  grid-template-rows: min-content min-content;
+}
+
+@media screen and (max-width: 896px) {
+    .place__text {
+        row-gap: 25px;
+    }
+}

@@ -1,0 +1,14 @@
+.link {
+    border: 1px solid green;
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.link:hover {
+    opacity: 0.8;
+  }

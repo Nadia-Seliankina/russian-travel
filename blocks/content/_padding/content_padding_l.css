@@ -1,0 +1,26 @@
+.content_padding_l {
+    /* Поля секции */
+    box-sizing: border-box;
+    padding: 0 148px;
+    width: 100%;
+    /* центр относительно родителя */
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1152px) {
+    .content_padding_l {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .content_padding_l {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .content_padding_l {
+        padding: 0;
+    }
+}
