@@ -1,4 +1,31 @@
 .intro {
-    border: 1px solid red;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    /* Поля секции */
+    box-sizing: border-box;
+    margin-left: 148px;
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1152px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .intro {
+    padding: 0 24px;
+    width: 100%;
     margin: 0;
   }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    padding: 0 16px;
+    width: 100%;
+    margin: 0;
+  }
+}
