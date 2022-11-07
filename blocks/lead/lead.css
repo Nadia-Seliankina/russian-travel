@@ -1,4 +1,25 @@
 .lead {
-    border: 1px solid red;
-    margin: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    /* Поля секции */
+    box-sizing: border-box;
+    padding: 0 148px;
+    width: 100%;
+    /* центр относительно родителя */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead {
+    padding: 0 48px;
   }
+}
+
+@media screen and (max-width: 896px) {
+  .lead {
+    padding: 0;
+  }
+}
