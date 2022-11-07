@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid red;
   /* Поля секции */
   box-sizing: border-box;
   padding: 0 48px;
@@ -9,6 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   min-height: 52px;
+  padding-top: 28px;
 }
 
 @media screen and (max-width: 896px) {
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 544px) {
   .header {
-    padding: 0 16px;
+    padding: 16px 16px 0;
     min-height: 42px;
   }
 }

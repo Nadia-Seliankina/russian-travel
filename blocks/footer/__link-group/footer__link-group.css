@@ -1,0 +1,13 @@
+.footer__link-group {
+    display: flex;
+    column-gap: 18px;
+}
+
+@media screen and (max-width: 544px) {
+    .footer__link-group {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        margin-bottom: 48px;
+    }
+  }
