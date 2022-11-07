@@ -1,5 +1,4 @@
 .places__board {
-    border: 1px solid green;
     /* Удаляю маркировку списка и отступы */
     list-style: none;
     margin-block-start: 0;

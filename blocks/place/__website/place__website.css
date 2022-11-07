@@ -1,7 +1,12 @@
 .place__website {
-    border: 1px solid green;
     display: grid;
     grid-template-rows: min-content min-content;
     row-gap: 12px;
     align-content: end;
 }
+
+@media screen and (max-width: 544px) {
+    .place__website {
+        padding: 0 16px;
+    }
+  }
