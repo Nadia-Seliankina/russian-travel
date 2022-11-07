@@ -1,4 +1,4 @@
-.content_padding_m {
+.content__cover {
     /* Поля секции */
     box-sizing: border-box;
     padding: 0 48px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1152px) {
-    .content_padding_m {
+    .content__cover {
         padding: 0;
     }
 }
