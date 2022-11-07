@@ -1,0 +1,7 @@
+.header__lang-link {
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    column-gap: 18px;
+}
+
