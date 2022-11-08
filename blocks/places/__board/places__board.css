@@ -6,6 +6,8 @@
     padding-inline-start: 0;
     display: grid;
     row-gap: 80px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 896px) {
@@ -14,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 654px) {
     .places__board {
         row-gap: 50px;
     }

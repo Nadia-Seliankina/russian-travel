@@ -1,23 +1,28 @@
 .header {
   /* Поля секции */
   box-sizing: border-box;
-  padding: 0 48px;
+  padding: 28px 48px 0;
   width: 100%;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   min-height: 52px;
-  padding-top: 28px;
 }
 
 @media screen and (max-width: 896px) {
   .header {
-    padding: 0 24px;
+    padding: 28px 24px 0;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 654px) {
+  .header {
+    padding: 22px 20px 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
   .header {
     padding: 16px 16px 0;
     min-height: 42px;

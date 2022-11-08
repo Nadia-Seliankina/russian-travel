@@ -3,11 +3,18 @@
     column-gap: 18px;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 720px) {
+    .footer__link-group {
+        column-gap: 5px;
+        margin-bottom: 20px;
+    }
+  }
+
+@media screen and (max-width: 430px) {
     .footer__link-group {
         display: flex;
         flex-direction: column;
         row-gap: 32px;
         margin-bottom: 48px;
     }
-  }
+}

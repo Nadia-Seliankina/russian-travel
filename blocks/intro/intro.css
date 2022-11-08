@@ -2,30 +2,37 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     /* Поля секции */
     box-sizing: border-box;
-    margin-left: 148px;
-    width: 690px;
+    padding-left: 148px;
+    max-width: 838px;
     display: flex;
     flex-direction: column;
+    justify-items: flex-start;
 }
 
 @media screen and (max-width: 1152px) {
   .intro {
-    margin-left: 48px;
+    padding-left: 48px;
+    max-width: 738px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .intro {
+    max-width: 100%;
     padding: 0 24px;
-    width: 100%;
-    margin: 0;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 654px) {
   .intro {
     padding: 0 16px;
     width: 100%;
-    margin: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .intro {
+    padding: 0 16px;
+    width: 100%;
   }
 }

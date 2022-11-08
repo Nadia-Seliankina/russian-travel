@@ -2,6 +2,8 @@
   display: grid;
   row-gap: 26px;
   grid-template-rows: min-content min-content;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 @media screen and (max-width: 896px) {
@@ -10,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 654px) {
   .place__text {
       padding: 0 16px;
   }
