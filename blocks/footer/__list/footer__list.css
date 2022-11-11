@@ -1,18 +1,22 @@
-.footer__link-group {
+.footer__list {
+    /* Удаляю маркировку списка и отступы */
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
     display: flex;
     column-gap: 18px;
 }
 
 @media screen and (max-width: 720px) {
-    .footer__link-group {
+    .footer__list {
         column-gap: 5px;
         margin-bottom: 20px;
     }
   }
 
 @media screen and (max-width: 430px) {
-    .footer__link-group {
-        display: flex;
+    .footer__list {
         flex-direction: column;
         row-gap: 32px;
         margin-bottom: 48px;

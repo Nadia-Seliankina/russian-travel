@@ -20,7 +20,6 @@
     .place {
         column-gap: 28px;
         grid-template-columns: 340px 1fr;
-        grid-template-rows: min-content min-content;
     }
 }
 

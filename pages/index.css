@@ -26,10 +26,10 @@
 /* intro*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__item/intro__item.css);
-@import url(../blocks/intro/__item-400/intro__item-400.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__font-normal/intro__font-normal.css);
 
 /* photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -44,15 +44,10 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__text/_gap/place__text_gap_no.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__website/place__website.css);
-
-/* url-heading*/
-@import url(../blocks/url-heading/url-heading.css);
-
-/* link*/
-@import url(../blocks/link/link.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
 
 /* cover*/
 @import url(../blocks/cover/cover.css);
@@ -63,8 +58,8 @@
 /* footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__link-group/footer__link-group.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list/footer__list.css);
 
 
 
